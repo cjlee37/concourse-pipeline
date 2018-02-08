@@ -10,3 +10,10 @@ jobs:
       run:
         path: echo
         args: ["Hello, world!"]
+
+resources:
+- name: concourse-pipeline 
+  type: git
+  source:
+    uri: git@github.com:cjlee37/concourse-pipeline.git
+    branch: master
