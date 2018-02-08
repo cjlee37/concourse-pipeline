@@ -15,5 +15,5 @@ resources:
 - name: concourse-pipeline 
   type: git
   source:
-    uri: git@github.com:cjlee37/concourse-pipeline.git
+    uri: http://github.com/cjlee37/concourse-pipeline.git
     branch: master
